@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="assemblyK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calJ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calJMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calJMatrixRow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calMass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calMassMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="detector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eleArea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="femData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="genSourceAdjoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getBoundaryData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inTraingle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jacobianStand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loadDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loadDetectorData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loadDoubleRaw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loadLink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loadMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loadSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mySearchN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="qvec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="recon_CW_Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconstract_CW.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_lu main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="insideTetrahedron.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mytSearchN3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calMass3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calMassMatrix3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="assemblyK3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getBoundaryData3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="genSourceAdjoint3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assemblyK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calJ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calJMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calJMatrixRow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calMass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calMassMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Detector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="eleArea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="femData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="genSourceAdjoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getBoundaryData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inTraingle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jacobianStand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loadDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loadDetectorData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loadDoubleRaw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loadLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loadMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loadSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mytSearchN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="qvec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reconstractCW.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="insideTetrahedron.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mytSearchN3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calMass3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calMassMatrix3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="assemblyK3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getBoundaryData3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="genSourceAdjoint3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

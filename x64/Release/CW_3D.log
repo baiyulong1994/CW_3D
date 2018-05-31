@@ -1,0 +1,61 @@
+﻿生成启动时间为 2018/5/29 23:16:07。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2013\Projects\CW_3D\CW_3D\CW_3D.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\visual studio\VC\bin\x86_amd64\CL.exe /c /IG:\eigen3 /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt getBoundaryData3D.cpp recon_CW_Main.cpp
+         getBoundaryData3D.cpp
+     1>getBoundaryData3D.cpp(29): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>getBoundaryData3D.cpp(47): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>getBoundaryData3D.cpp(84): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>getBoundaryData3D.cpp(86): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         recon_CW_Main.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\cw_3d\cw_3d\calMassMatrix.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\administrator\documents\visual studio 2013\projects\cw_3d\cw_3d\calMassMatrix3D.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>recon_CW_Main.cpp(30): warning C4101: “volume_coord”: 未引用的局部变量
+       Link:
+         G:\visual studio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\CW_3D\x64\Release\CW_3D.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\CW_3D\x64\Release\CW_3D.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2013\Projects\CW_3D\x64\Release\CW_3D.lib" /MACHINE:X64 x64\Release\assemblyK.obj
+         x64\Release\assemblyK3D.obj
+         x64\Release\calJ.obj
+         x64\Release\calJMatrix.obj
+         x64\Release\calJMatrixRow.obj
+         x64\Release\calMass.obj
+         x64\Release\calMass3D.obj
+         x64\Release\calMassMatrix.obj
+         x64\Release\calMassMatrix3D.obj
+         x64\Release\detector.obj
+         x64\Release\eleArea.obj
+         x64\Release\femData.obj
+         x64\Release\genSourceAdjoint.obj
+         x64\Release\getBoundaryData.obj
+         x64\Release\getBoundaryData3D.obj
+         x64\Release\genSourceAdjoint3D.obj
+         x64\Release\insideTetrahedron.obj
+         x64\Release\inTraingle.obj
+         x64\Release\jacobianStand.obj
+         x64\Release\loadDetector.obj
+         x64\Release\loadDetectorData.obj
+         x64\Release\loadDoubleRaw.obj
+         x64\Release\loadLink.obj
+         x64\Release\loadMesh.obj
+         x64\Release\loadSource.obj
+         x64\Release\main.obj
+         x64\Release\mesh.obj
+         x64\Release\MU.obj
+         x64\Release\mySearchN.obj
+         x64\Release\mytSearchN3D.obj
+         x64\Release\qvec.obj
+         x64\Release\reconstract_CW.obj
+         x64\Release\recon_CW_Main.obj
+         x64\Release\source.obj
+         "x64\Release\test_lu main.obj"
+         "x64\Release\源.obj"
+         正在生成代码
+     1>c:\users\administrator\documents\visual studio 2013\projects\cw_3d\cw_3d\elearea.cpp(34): warning C4715: “eleArea”: 不是所有的控件路径都返回值
+     1>c:\users\administrator\documents\visual studio 2013\projects\cw_3d\cw_3d\loaddetector.cpp(13): warning C4715: “loadDetector”: 不是所有的控件路径都返回值
+     1>c:\users\administrator\documents\visual studio 2013\projects\cw_3d\cw_3d\loadsource.cpp(13): warning C4715: “loadSource”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         CW_3D.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2013\Projects\CW_3D\x64\Release\CW_3D.exe
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2013\Projects\CW_3D\CW_3D\CW_3D.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.37
